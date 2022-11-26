@@ -2,6 +2,4 @@
   *;
 }
 
--keep class org.lineageos.settings.popupcamera.* {
-  *;
-}
+
