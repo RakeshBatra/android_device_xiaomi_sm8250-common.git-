@@ -174,7 +174,6 @@ ro.surface_flinger.set_touch_timer_ms?=4000
 ro.surface_flinger.set_display_power_timer_ms?=1000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 vendor.display.defer_fps_frame_count?=2
->>>>>>> 56c30a4 (munch: Enable use_smooth_motion):properties/vendor.prop
 
 # DRM
 drm.service.enabled=true
@@ -206,6 +205,7 @@ debug.sf.predict_hwc_composition_strategy=0
 debug.sf.treat_170m_as_sRGB=1
 persist.demo.hdmirotationlock=false
 persist.sys.sf.native_mode=258
+debug.sf.predict_hwc_composition_strategy=0
 debug.sf.disable_client_composition_cache=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
