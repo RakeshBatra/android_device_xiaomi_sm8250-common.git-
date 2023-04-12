@@ -154,8 +154,16 @@ vendor.display.enable_posted_start_dyn=1
 vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
 vendor.display.use_layer_ext=0
-vendor.display.use_smooth_motion=0
 debug.sf.enable_egl_image_tracker=1
+vendor.display.use_smooth_motion=1
+
+# Display Refresh Rate
+ro.surface_flinger.set_idle_timer_ms?=4000
+ro.surface_flinger.set_touch_timer_ms?=4000
+ro.surface_flinger.set_display_power_timer_ms?=1000
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+vendor.display.defer_fps_frame_count?=2
+>>>>>>> 56c30a4 (munch: Enable use_smooth_motion):properties/vendor.prop
 
 # DRM
 drm.service.enabled=true
