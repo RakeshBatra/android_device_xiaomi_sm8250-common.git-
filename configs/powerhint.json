@@ -336,7 +336,6 @@
       "Name": "SchedBoost",
       "Path": "/proc/sys/kernel/sched_boost",
       "Values": [
-        "2",
         "1",
         "0"
       ],
@@ -426,7 +425,7 @@
       "PowerHint": "INTERACTION",
       "Node": "SchedBoost",
       "Duration": 0,
-      "Value": "2"
+      "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
